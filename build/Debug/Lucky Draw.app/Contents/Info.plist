@@ -6,6 +6,8 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>Lucky Draw</string>
+	<key>CFBundleIconFile</key>
+	<string>Lucky Draw.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.Lucky_Draw</string>
 	<key>CFBundleInfoDictionaryVersion</key>

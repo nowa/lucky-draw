@@ -16,6 +16,8 @@
 		94911F290E51EA7B00DAA70E /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 94911F280E51EA7B00DAA70E /* Controller.m */; };
 		94911FC30E51F13300DAA70E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 94911FC20E51F13300DAA70E /* background.png */; };
 		949120E50E5215B100DAA70E /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949120E40E5215B100DAA70E /* ScreenSaver.framework */; };
+		949121B70E5227EC00DAA70E /* Lucky Draw.icns in Resources */ = {isa = PBXBuildFile; fileRef = 949121B60E5227EC00DAA70E /* Lucky Draw.icns */; };
+		949121ED0E522BEC00DAA70E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 949121EC0E522BEC00DAA70E /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		94911F280E51EA7B00DAA70E /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 		94911FC20E51F13300DAA70E /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../Desktop/background.png; sourceTree = SOURCE_ROOT; };
 		949120E40E5215B100DAA70E /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		949121B60E5227EC00DAA70E /* Lucky Draw.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "Lucky Draw.icns"; path = "../../Desktop/Lucky Draw.icns"; sourceTree = SOURCE_ROOT; };
+		949121EC0E522BEC00DAA70E /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = ../../Desktop/Credits.rtf; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				949121EC0E522BEC00DAA70E /* Credits.rtf */,
+				949121B60E5227EC00DAA70E /* Lucky Draw.icns */,
 				94911FC20E51F13300DAA70E /* background.png */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -177,6 +183,8 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				94911FC30E51F13300DAA70E /* background.png in Resources */,
+				949121B70E5227EC00DAA70E /* Lucky Draw.icns in Resources */,
+				949121ED0E522BEC00DAA70E /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
