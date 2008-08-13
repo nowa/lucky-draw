@@ -79,6 +79,8 @@
 			[NSThread sleepForTimeInterval:0.09];
 		}
 	}
+	// chit
+	[mLabel setTitleWithMnemonic:@"金蝉"];
 	[pool release];
 	[NSThread exit];
 }
