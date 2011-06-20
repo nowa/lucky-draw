@@ -34,7 +34,7 @@
 
 - (IBAction)draw:(id)sender
 {
-	NSInteger * button_status = [mButton tag];
+	NSInteger button_status = [mButton tag];
 	NSLog(@"B: %d", button_status);
 	if (button_status == 0) {
 		[NSThread
@@ -76,11 +76,11 @@
 		NSString * temp = [anames objectAtIndex:SSRandomIntBetween(0, count-1)];
 		if (temp != NULL) {
 			[mLabel setTitleWithMnemonic:temp];
-			[NSThread sleepForTimeInterval:0.09];
+			[NSThread sleepForTimeInterval:0.03];
 		}
 	}
 	// chit
-	[mLabel setTitleWithMnemonic:@"金蝉"];
+	//[mLabel setTitleWithMnemonic:@"金蝉"];
 	[pool release];
 	[NSThread exit];
 }
